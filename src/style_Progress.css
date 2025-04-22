@@ -56,3 +56,10 @@ button{
     padding: 5px;
     background-color: rgb(200, 223, 200);
 }
+button:hover{
+    transform: scale(1.2);
+    transition: transform 0.4s ease-in-out;
+    box-shadow: 2px 5px 5px gray;
+    background-color: rgb(127, 127, 198);
+    color: white;
+}
