@@ -1,0 +1,48 @@
+body{
+  margin:0;
+  box-sizing: border-box;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+   
+}
+.product_Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid;
+  border-radius: 20px;
+  flex-wrap: wrap;
+  margin: 5px;
+  box-shadow: 2px 5px 5px gray;
+}
+.images
+{
+  width: 50%;
+  height: 50%;
+}
+.pagination_Button{
+  
+}
+ button{
+  margin:1px;
+  border-radius: 4px;
+  text-align: center;
+  align-items: center;
+  border: 1px solid;
+
+ }
+ .forward,.backword
+ {
+border: 1px solid;
+padding: 2px;
+margin: 5px;
+border-radius: 5px;
+cursor:pointer;
+ }
+ 
+ button:hover{
+  background-color: aquamarine;
+ }
