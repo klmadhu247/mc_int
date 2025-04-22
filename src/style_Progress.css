@@ -1,0 +1,53 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.progressBar_Container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(173, 91, 249);
+   height: 100vh;
+
+}
+.bar
+{
+    width: 40%;
+    height: 30px;
+    border: 2px solid rgb(7, 32, 193);
+border-radius: 30px;
+overflow: hidden;
+}
+.bar_Inside
+{
+    
+    height: 100%;
+   
+    background-color: rgb(81, 209, 81);
+   
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   
+  
+ 
+}
+.button_Group{
+    margin-top: 10px;
+    padding: 10px;
+}
+button{
+    margin: 10px;
+    padding: 5px;
+    background-color: rgb(200, 223, 200);
+}
