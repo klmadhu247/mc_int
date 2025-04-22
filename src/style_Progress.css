@@ -21,6 +21,11 @@ body{
     border: 2px solid rgb(7, 32, 193);
 border-radius: 30px;
 overflow: hidden;
+
+}
+.bar:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 .bar_Inside
 {
